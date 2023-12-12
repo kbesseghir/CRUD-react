@@ -15,25 +15,25 @@ function Details() {
   return (
     <>
       <h1> Product Details </h1>
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-md-6">
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-6">
             <img
               src={product.image}
               alt="Product Image"
-              class="img-fluid"
+              className="img-fluid"
             />
           </div>
-          <div class="col-md-6">
-            <h2 class="mb-3">{product.title}</h2>
-            <p class="text-muted">
-              Category: <span class="text-primary">{product.category}</span>
+          <div className="col-md-6">
+            <h2 className="mb-3">{product.title}</h2>
+            <p className="text-muted">
+              Category: <span className="text-primary">{product.category}</span>
             </p>
-            <p class="lead">{product.price}</p>
+            <p className="lead">{product.price}</p>
             <p>
              {product.description}
             </p>
-            <button class="btn btn-primary">Add to Cart</button>
+            <button className="btn btn-primary">Add to Cart</button>
           </div>
         </div>
       </div>
