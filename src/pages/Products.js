@@ -20,7 +20,7 @@ function Products() {
             fetch(`${apiUrl}/${product.id}`,{method:'DELETE'})
             .then((response) => response.json())
             .then((data) => getAllProducts());
-        //   Swal.fire("Deleted!", "", "success");
+          Swal.fire("Deleted!", "", "success");
         } else if (result.isDismissed) {
           Swal.fire("Product is not deleted", "", "info");
         }
