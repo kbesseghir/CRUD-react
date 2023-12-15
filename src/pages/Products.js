@@ -66,7 +66,7 @@ function Products() {
                   >
                     View
                   </Link>
-                  <button className="btn btn-primary btn-sm mx-2">Edit</button>
+                  <Link to={`/products/edit/${product.id}`} className="btn btn-primary btn-sm mx-2">Edit</Link>
                 </td>
               </tr>
             );

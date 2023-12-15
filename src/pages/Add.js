@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 function Add() {
   const apiUrl = " http://localhost:9000/products";
+  const navigate = useNavigate();
 
   const [title, settitel] = useState("");
   const [price, setprice] = useState(0);
@@ -28,6 +29,8 @@ function Add() {
       .then((response) => response.json())
       .then((data) => console.log(data))
       .catch((error) => console.error("Error:", error));
+      navigate("/products");
+
   };
 
   return (
