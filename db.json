@@ -185,5 +185,41 @@
       "id": 17
     }
     
+  ],
+  "categories": [
+    { 
+      "id": 1, 
+      "name": "Electronics", 
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      
+      "description": "Explore the latest electronic gadgets and devices.Discover trendy and fashionable clothing for all occasions"
+    },
+    { 
+      "id": 2, 
+      "name": "Clothing", 
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "description": "Discover trendy and fashionable clothing for all occasions.Discover trendy and fashionable clothing for all occasions"
+    },
+    { 
+      "id": 3, 
+      "name": "Men's Clothing", 
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "description": "Find stylish men's clothing for a dapper look.Discover trendy and fashionable clothing for all occasions"
+    },
+    { 
+      "id": 4, 
+      "name": "Women's Clothing", 
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "description": "Explore a collection of women's clothing for every style and occasion.Discover trendy and fashionable clothing for all occasions"
+    },
+    { 
+      "id": 5, 
+      "name": "Jewelry", 
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "description": "Accentuate your style with elegant and trendy jewelry accessories.Discover trendy and fashionable clothing for all occasions"
+    }
   ]
+  
+  
+  
 }
